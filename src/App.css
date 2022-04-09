@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(../src/imgs/ToDoFon.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center; 
+  margin-top: 1%;
+  font-family: 'Anek Odia', sans-serif;
+  font-size: 18px;
+  color: cornsilk;
+}
+.App{
+  border-radius: 11px;
+  background-color: rgb(89, 18, 18);
+  width: 500px;
+  min-height: 600px;
+  display:flex;
+  justify-content: space-around;
+  opacity: 0.9;
+}
+.strike {
+  text-decoration: line-through;
+  color: rgb(20, 73, 73);
+  font-style: italic;
+}
+.kolvo{
+  font-style: oblique;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  margin-bottom: 10px;
+}

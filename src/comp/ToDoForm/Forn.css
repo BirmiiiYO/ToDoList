@@ -1,0 +1,26 @@
+.form{
+display: flex;
+justify-content: space-between;
+margin: 10px;
+}
+
+.input{
+    padding: 10px 40px 10px 10px;
+    border-radius: 9px;
+  background: #9b0505;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border-color: rgb(212, 212, 212);
+  border: 1px solid rgb(160, 147, 147);
+}
+
+.btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 9px;
+  background: #9b0505;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border-color: rgb(212, 212, 212);
+  border: 1px solid rgb(160, 147, 147);
+    
+}
