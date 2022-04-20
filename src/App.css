@@ -19,7 +19,7 @@ body{
   min-height: 600px;
   display:flex;
   justify-content: space-around;
-  opacity: 0.9;
+  opacity: 0.91;
 }
 
 @media(max-width:434px){
