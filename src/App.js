@@ -22,7 +22,6 @@ function App() {
     });
     setToDoList(mapped);
   };
-
   const handleFilter = () => {
     let filtered = toDoList.filter((task) => {
       return !task.complete;
@@ -30,6 +29,9 @@ function App() {
     setToDoList(filtered);
   };
 
+  const updateTodo = (todoId, newValue) => {
+    setToDoList(prev => prev.map(item => (item.id === todoId ? newValue : item)));
+  };
   const addTask = (userInput) => {
     let copy = [...toDoList];
     copy = [
@@ -50,6 +52,7 @@ function App() {
       <ToDoList
         toDoList={toDoList}
         handleToggle={handleToggle}
+        updateTodo={updateTodo}
       />
      
       <ToDoDel handleFilter={handleFilter} />

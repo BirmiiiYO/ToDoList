@@ -21,6 +21,13 @@ body{
   justify-content: space-around;
   opacity: 0.9;
 }
+
+@media(max-width:434px){
+  .App{
+    width: 100%;
+  }
+}
+
 .strike {
   text-decoration: line-through;
   color: rgb(20, 73, 73);
